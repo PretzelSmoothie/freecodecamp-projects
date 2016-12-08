@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+}
+
+.quote-box {
+  position: relative;
+  border-radius: 10px;
+  background-color: #fff;
+  width: 400px;
+  height: 400px;
+  margin:auto auto auto auto;
+  padding: 35px 35px;
+  display: table;
+  text-align: center;
+}
+
+.quote-text {
+  width: 450px;
+  font-weight: 500;
+  font-size: 40pt;
+   text-align: center;
+  display: block;
+}
+
+.message {
+  font-size: 20pt;
+  text-align: left;
+  
+}
+
+.author {
+  float: left;
+  font-size 22pt;
+}
+
+.buttons {
+  width: 300px;  
+ margin: auto;
+  
+}
+
+.btn {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: #fff;
+  padding: 10px 10px 10px 10px;
+  opacity: 2;  
+  margin-top: 30px;
+  cursor: grab;
+ 
+}
+
+#newquote {
+    float: right;
+}
+
+#tweeter {
+  float: left;
+  text-align: center;
+  height: 40px;
+  width: 45px;
+}
+
+.icon {
+  float: left;
+  
+}
+
+.footer {  
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:#fff;
+
+}
+
+.pretzel {
+    font-weight:500;
+    text-decoration:none;
+    color:#fff;
+}
+
+div {
+  position: relative;
+  z-index: 2;
+}
